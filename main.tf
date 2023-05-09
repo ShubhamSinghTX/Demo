@@ -6,7 +6,7 @@ provider "aws" {
 
 resource "aws_s3_bucket" "abc" {
     bucket = "abc"
-    acl = "public"
+    acl = "private"
     
     versioning {
         enabled = false
