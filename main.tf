@@ -4,8 +4,8 @@ provider "aws" {
 
 //s3
 
-resource "aws_s3_bucket" "abc" {
-    bucket = "abc"
+resource "aws_s3_bucket" "shubham" {
+    bucket = "shubham"
     acl = "private"
     
     versioning {
