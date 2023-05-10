@@ -4,8 +4,8 @@ provider "aws" {
 
 //s3
 
-resource "aws_s3_bucket" "abc" {
-    bucket = "abc"
+resource "aws_s3_bucket" "a" {
+    bucket = "a"
     acl = "public"
     
     versioning {
@@ -13,7 +13,7 @@ resource "aws_s3_bucket" "abc" {
     }
  
     tags = {
-        name = "abcd"
+        name = "abc"
     }
 
 }
