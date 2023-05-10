@@ -6,14 +6,14 @@ provider "aws" {
 
 resource "aws_s3_bucket" "a" {
     bucket = "a"
-    acl = "public"
+    acl = "private"
     
     versioning {
         enabled = false
     }
  
     tags = {
-        name = "abc"
+        name = "ab"
     }
 
 }
