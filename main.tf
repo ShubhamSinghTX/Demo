@@ -13,7 +13,7 @@ resource "aws_s3_bucket" "a" {
     }
  
     tags = {
-        name = "aa"
+        name = "a"
     }
 
 }
