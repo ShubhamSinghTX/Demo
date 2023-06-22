@@ -1,11 +1,11 @@
 provider "aws" {
-    region = "ap-northeast-2"
+    region = "ap-northeast-1"
 }
 
 //s3
 
-resource "aws_s3_bucket" "shubhamsinghtx" {
-    bucket = "shubhamsinghtx"
+resource "aws_s3_bucket" "abcshubhamsinghsingh" {
+    bucket = "abcshubhamsinghsingh"
     acl = "public"
     
     versioning {
